@@ -1,20 +1,7 @@
-''' crie um programa que receba do usuário as seguintes informações: 
-- nome
-- cpf
-- telefone
-- Email
-- Endereço
-- Gênero
-- Escolaridade
-- Signo
-- Tipo sanguíneo
-Ao final, o progama exibe essas informações na tela.
-Ao termninar crie um repositório no GitHub'''
-
 # Entrada de dados
 nome = (input("Informe seu nome: "))
-cpf = int(input("Informe seu CPF: "))
-telefone = int(input("Informe seu telefone: "))
+cpf = (input("Informe seu CPF: "))
+telefone = (input("Informe seu telefone: "))
 email = (input("Informe seu e-mail: "))
 endereco = (input("Informe seu endereço: "))
 genero = (input("Informe seu gênero: "))
